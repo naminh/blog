@@ -1,1 +1,9 @@
 ﻿_site
+
+# Mac
+.DS_Store
+
+.sass-cache/
+.jekyll-cache/
+#   - Gemfile
+#   - Gemfile.lock
