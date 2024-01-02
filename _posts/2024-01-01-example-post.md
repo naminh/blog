@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello world - first blog post!"
 date:   2024-01-01 22:21:51 +0000
-categories: posts
+categories: "ML-Posts"
 ---
 
 ## Blog Post Title From First Header
