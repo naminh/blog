@@ -3,6 +3,24 @@ hr {
   margin-bottom: 20px;
 }
 
+body {
+  font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+}
+
+h1, h2, h3, h4, h5, .site-title, .site-nav {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Share links */
+.share-nav { display: flex; align-items: center; gap: 4px; }
+.share-label { color: silver; margin-right: 6px; }
+.share-nav a { display: inline-flex; width: 32px; height: 36px; align-items: center; justify-content: center; }
+.share-nav svg { height: 18px; fill: #8a8a8a; }
+.share-nav a:hover svg, .share-nav a:focus-visible svg { fill: #7D7D7D; }
+.share-nav .facebook:hover svg { fill: #3B5998; }
+.share-nav .twitter:hover svg { fill: #55ACEE; }
+.share-nav .linkedin:hover svg { fill: #0077b5; }
+
 /* Post navigation links */
 .post_navi {
   display: flex;
@@ -42,4 +60,23 @@ hr {
   transform: translateY(-50%);
   font-size: 2.5em;
   opacity: 0.3;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  html { color-scheme: dark; }
+  body { background-color: #121212; color: #d4d4d4; }
+  a { color: #c792ea; }
+  a:visited { color: #b48ad6; }
+  .site-header, .site-footer, hr { border-color: #333; }
+  .site-title, .site-title:visited, .site-nav .page-link { color: #d4d4d4; }
+  .post-meta, .footer-col, .post_navi-label { color: #9a9a9a; }
+  .site-header { border-bottom-color: #333; }
+  pre, code, .highlight { background: #1e1e1e; border-color: #333; }
+  .hljs { background: #1e1e1e; color: #d4d4d4; }
+  .hljs-keyword, .hljs-selector-tag, .hljs-built_in { color: #569cd6; }
+  .hljs-string, .hljs-attr { color: #ce9178; }
+  .hljs-comment { color: #6a9955; }
+  .hljs-number, .hljs-literal { color: #b5cea8; }
+  .hljs-title, .hljs-function { color: #dcdcaa; }
 }

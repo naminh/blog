@@ -1,4 +1,5 @@
 title: "Minh Nguyen"
+lang: en
 author: "Minh Nguyen"
 description: "Minh Nguyen's blog on all things ML and AI." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
@@ -22,8 +23,6 @@ linkedin_username: "naminh"
 #########################################################################################
 theme: "minima"
 
-rss: rss
-
 kramdown:
   syntax_highlighter_opts:
     disable: true
@@ -31,6 +30,8 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-titles-from-headings
 
 titles_from_headings:
   strip_title: true
