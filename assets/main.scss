@@ -1,0 +1,9 @@
+---
+---
+/* Override theme defaults */
+$base-font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$code-font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+$brand-color: purple;
+
+/* load _sass/minima.scss */
+@import "minima";

@@ -1,18 +1,18 @@
 ---
-layout: page
+layout: about
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Introduction
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+🚀 As an accomplished AI specialist, I thrive on solving complex challenges across anomaly detection, forecasting, recommendation engines, computer vision, NLP and reinforcement learning. My expertise spans diverse industries, enabling me to deliver high-impact solutions.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+🔥 With a track record of serving over 18+ clients in my consulting career, I've consistently driven positive outcomes, leveraging cutting-edge AI technologies to unlock new possibilities.
 
+🌱 Beyond technology, I'm an advocate for sustainable, green architecture, and I'm enthusiastic about leveraging AI to create efficient, eco-friendly solutions for a better future.
 
-[jekyll-organization]: https://github.com/jekyll
+🌟 My commitment to ethical AI extends to championing fairness and accountability. I'm dedicated to ensuring AI solutions promote diversity, inclusivity, and unbiased decision-making.
+
+<!-- # Recommendations -->
+
